@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &:first-child {
+            gap: 6px;
+            max-width: 115px;
+        }
+        &:nth-child(2) {
+            gap: 15px;
+            flex-direction: column;
+
+            .number {
+                display: flex;
+                gap:3px;
+                align-items: center;
+                font-family: "SF-PRO-Display";
+                font-size: 12px;
+                color: #222222;
+            }
+        }
+
+        .image {
+            border: 1px solid #222222;
+            border-radius: 50%;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

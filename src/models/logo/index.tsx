@@ -15,7 +15,11 @@ export const Logo = ({
       className={styles.container}
     >
       <Image src={imagesSVG.logo} />
-      {titled && <h1 className={styles.title}>RANSS</h1>}
+      {titled && (
+        <h1 style={{ fontSize: height - 5 }} className={styles.title}>
+          RANSS
+        </h1>
+      )}
     </div>
   );
 };

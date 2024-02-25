@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+
+        .item {
+            font-family: "SF-PRO-Displyan";
+            font-weight: 400;
+            font-size: 12px;
+            color: #222222;
+        }
+    }
+}

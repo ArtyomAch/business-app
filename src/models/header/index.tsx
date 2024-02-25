@@ -13,7 +13,7 @@ export const Header = ({
 }: IHeaderProps): JSX.Element => {
   const isMobile = useMediaQuery({
     minWidth: 299,
-    maxWidth: 450,
+    maxWidth: 750,
   });
 
   return (
