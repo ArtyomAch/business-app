@@ -56,7 +56,7 @@
 */
 
 @font-face {
-    font-family: 'SF-PRO-Displyan';
+    font-family: 'SF-PRO-Display';
     src: url('../../../public/fonts/SF-PRO-Display-Light.woff2') format('woff2'),
         url('../../../public/fonts/SF-PRO-Display-Light.woff') format('woff');
     font-weight: 200;
@@ -65,7 +65,7 @@
 }
 
 @font-face {
-    font-family: 'SF-PRO-Displyan';
+    font-family: 'SF-PRO-Display';
     src: url('../../../public/fonts/SF-PRO-Display-Regular.woff2') format('woff2'),
         url('../../../public/fonts/SF-PRO-Display-Regular.woff') format('woff');
     font-weight: 400;
@@ -74,9 +74,9 @@
 }
 
 @font-face {
-    font-family: 'SF-PRO-Displyan';
-    src: url('../../../public/fonts/SF-PRO-Displyan-Bold.woff2') format('woff2'),
-        url('../../../public/fonts/SF-PRO-Displyan-Bold.woff') format('woff');
+    font-family: 'SF-PRO-Display';
+    src: url('../../../public/fonts/SF-PRO-Display-Bold.woff2') format('woff2'),
+        url('../../../public/fonts/SF-PRO-Display-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

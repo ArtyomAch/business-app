@@ -1,4 +1,6 @@
 export type TSize = {
-  width: number;
-  height: number;
+  width: TSizeValue;
+  height: TSizeValue;
 };
+
+export type TSizeValue = number | string;

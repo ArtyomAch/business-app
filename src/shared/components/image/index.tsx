@@ -9,14 +9,14 @@ const Image = ({
   className = "",
 }: IImageProps): JSX.Element => {
   const imageWidth = size
-    ? typeof size === "number"
+    ? typeof size !== "object"
       ? size
       : size.width
     : width
     ? width
     : "100%";
   const imageHeight = size
-    ? typeof size === "number"
+    ? typeof size !== "object"
       ? size
       : size.height
     : height

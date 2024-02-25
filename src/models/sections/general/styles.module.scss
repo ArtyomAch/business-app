@@ -1,0 +1,98 @@
+.container {
+    position: relative;
+    font-family: "SF-PRO-Display";
+    padding: 33px 10px 110px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 14%, rgba(207,205,207,1) 38%);
+
+    * {
+        z-index: 10;
+    }
+
+    .background {
+        position: absolute;
+        z-index: 0;
+        height: 47%;
+        bottom: 30%;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 24px;
+        color: #222222;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .descr {
+        margin-bottom: 13px;
+    }
+
+    .descr, .descr2 {
+        font-weight: 400;
+        font-size: 18px;
+        color: #222222;
+        text-align: center;
+
+    }
+
+    .green {
+        color: #2AD200;
+    }
+
+    .descr2 {
+        margin-bottom: 26px;
+    }
+
+    .composition {
+        position: relative;
+        width: 100%;
+        min-height: 350px;
+
+        .laptop, .phone {
+            position: absolute;
+        }
+
+        .laptop {
+            z-index: 1;
+        }
+
+        .phone {
+            z-index: 100;
+            bottom: 50px;
+            left: 10px;
+        }
+    }
+
+    .buttonBox {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 65px;
+        width: 100%;
+
+        .button {
+            max-width: 300px;
+            padding: 14px 150px 14px 30px;
+            white-space: wrap;
+            text-align: start;
+            font-size: 14px;
+            font-family: "SF-PRO-Display";
+            font-weight: 700;
+            border-radius: 60px;
+            background: rgb(69,196,54);
+            background: linear-gradient(125deg, rgba(69,196,54,1) 63%, rgba(0,0,0,1) 100%);
+        }
+
+        .btnImage {
+            position: absolute;
+            right: 0;
+        }
+
+    }
+
+}
