@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/Inter-Light.woff2') format('woff2'),
-        url('/Inter-Light.woff') format('woff');
+    src: url('../../../public/fonts/Inter-Light.woff2') format('woff2'),
+        url('../../../public/fonts/Inter-Light.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/Inter-Regular.woff2') format('woff2'),
-        url('/Inter-Regular.woff') format('woff');
+    src: url('../../../public/fonts/Inter-Regular.woff2') format('woff2'),
+        url('../../../public/fonts/Inter-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/Inter-Medium.woff2') format('woff2'),
-        url('/Inter-Medium.woff') format('woff');
+    src: url('../../../public/fonts/Inter-Medium.woff2') format('woff2'),
+        url('../../../public/fonts/Inter-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -31,8 +31,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/Inter-SemiBold.woff2') format('woff2'),
-        url('/Inter-SemiBold.woff') format('woff');
+    src: url('../../../public/fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../../../public/fonts/Inter-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -44,40 +44,53 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/Roboto-Regular.woff2') format('woff2'),
-        url('/Roboto-Regular.woff') format('woff');
+    src: url('../../../public/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../../../public/fonts/Roboto-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 /*
-SF-Pro-Display
+    SF-Pro-Display
 */
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/SF-PRO-Display-Light.woff2') format('woff2'),
-        url('/SF-PRO-Display-Light.woff') format('woff');
+    font-family: 'SF-PRO-Displyan';
+    src: url('../../../public/fonts/SF-PRO-Display-Light.woff2') format('woff2'),
+        url('../../../public/fonts/SF-PRO-Display-Light.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/SF-PRO-Display-Regular.woff2') format('woff2'),
-        url('/SF-PRO-Display-Regular.woff') format('woff');
+    font-family: 'SF-PRO-Displyan';
+    src: url('../../../public/fonts/SF-PRO-Display-Regular.woff2') format('woff2'),
+        url('../../../public/fonts/SF-PRO-Display-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('/SF-PRO-Display-Bold.woff2') format('woff2'),
-        url('/SF-PRO-Display-Bold.woff') format('woff');
+    font-family: 'SF-PRO-Displyan';
+    src: url('../../../public/fonts/SF-PRO-Displyan-Bold.woff2') format('woff2'),
+        url('../../../public/fonts/SF-PRO-Displyan-Bold.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*
+Furore-Regular
+*/
+
+@font-face {
+    font-family: 'Furore';
+    src: url('../../../public/fonts/Furore-Regular.woff2') format('woff2'),
+        url('../../../public/fonts/Furore-Regular.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
